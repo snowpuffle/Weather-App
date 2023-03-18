@@ -59,7 +59,13 @@ main {
 .location .date {
     color: #fff;
     font-size: 1rem;
-    text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.6);
+    text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+}
+
+.icon i {
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: 0.4rem 0.4rem rgba(0, 0, 0, 0.6);
 }
 
 .current .temp {
