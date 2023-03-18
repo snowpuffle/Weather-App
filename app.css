@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('images/bg-4.jpg');
+    font-family: 'montserrat', sans-serif;
+    background-size: cover;
+    background-position: top center;
+    transition: background-image 0.8s ease-out;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header input {
+    min-width: 25rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0.5rem;
+    color: #000;
+    font-size: 1.3rem;
+    transition: 0.2s ease-out;
+}
+
+header input:focus {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+main {
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    padding: 2rem;
+    min-width: 25rem;
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.location .city {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.6);
+}
+
+.location .date {
+    color: #fff;
+    font-size: 1rem;
+    text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.6);
+}
+
+.current .temp {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 900;
+    text-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.6);
+}
+
+.current .description {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.6);
+}
+
+.current .hi-low {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.6);
+}
+
+
+.background-1 {
+    background-image: url('images/bg-1.jpg');
+}
+
+.background-2 {
+    background-image: url('images/bg-2.jpg');
+}
+
+.background-3 {
+    background-image: url('images/bg-3.jpg');
+}
+
+.background-4 {
+    background-image: url('images/bg-4.jpg');
+}
+
+.background-2 {
+    background-image: url('images/bg-5.jpg');
+}
